@@ -423,7 +423,7 @@ opacity: .6;
 	line-height: 28px;
 }
 .banner-container {
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/snow_heart2.JPG');
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/snow_heart2.jpg');
 	background-repeat: repeat;
 	min-height: 775px;
 	float:left;
