@@ -113,7 +113,7 @@ var customScripts = {
 $('document').ready(function () { 
   
     customScripts.init();
-	$('#services .col-md-3, #features, #aboutUs, #clients, #portfolio, #plans, #contactUs .parlex-back').css('opacity','0');
+	$('#services .col-md-3, #features, #clients, #portfolio, #plans, #contactUs .parlex-back').css('opacity','0');
 	$( "#menuToggle" ).toggle(function() {
 	$(this).find('i').removeClass('fa-arrow-left').addClass('fa-arrow-right');
 	 $('#mainNav').animate({"right":"0px"}, "slow");
