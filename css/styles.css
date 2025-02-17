@@ -1220,8 +1220,17 @@ color: #FFFFFF;
 	height: 50px;
 	padding-bottom: 5px;
 }
+#header-images {
+    display: flex;
+    justify-content: space-evenly;  /* Equal spacing */
+    align-items: center;            /* Align images vertically */
+    flex-wrap: wrap;                /* Wrap for smaller screens */
+    padding: 20px;                  /* Add spacing around */
+}
 .header-image {
 	width: 64px;
+	height: auto;
+    margin: 10px;  
 }
 .family-text {
 	font-size: 14px;
