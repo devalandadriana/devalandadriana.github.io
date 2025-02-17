@@ -78,13 +78,28 @@ var customScripts = {
     },   
 	waySlide: function(){
 		  	/* Waypoints Animations
-		   ------------------------------------------------------ */		   			  			
-			$('#services').waypoint(function() {				
-			$('#services .col-md-3').addClass( 'animated fadeInUp show' );   
-			}, { offset: 800}); 
+		   ------------------------------------------------------ */	
+      $('#family').waypoint(function() {				
+      $('#family').addClass( 'animated fadeInUp show' );   
+      }, { offset: 800}); 
+      $('#services').waypoint(function() {				
+			$('#services').addClass( 'animated fadeInUp show' );   
+			}, { offset: 800});
 			$('#aboutUs').waypoint(function() {				
 			$('#aboutUs').addClass( 'animated fadeInUp show' );   
 			}, { offset: 800}); 
+      $('#address').waypoint(function() {				
+      $('#address').addClass( 'animated fadeInUp show' );   
+      }, { offset: 800}); 
+      $('#vendors').waypoint(function() {				
+      $('#vendors').addClass( 'animated fadeInUp show' );   
+      }, { offset: 800}); 
+      $('#gifts').waypoint(function() {				
+      $('#gifts').addClass( 'animated fadeInUp show' );   
+      }, { offset: 800}); 
+      $('#gallery').waypoint(function() {				
+      $('#gallery').addClass( 'animated fadeInUp show' );   
+      }, { offset: 800}); 
 			$('#contactUs').waypoint(function() {				
 			$('#contactUs .parlex-back').addClass( 'animated fadeInUp show' );   
 			}, { offset: 800}); 
