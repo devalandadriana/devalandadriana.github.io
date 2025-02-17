@@ -10,7 +10,7 @@ Author URI: http://webthemez.com/
 	font-family: 'Open Sans', sans-serif;
 }
 body {
-	font-family: 'Open Sans', Arial, sans-serif;
+	font-family: 'Playfair Display', Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 1.6em;
@@ -511,6 +511,7 @@ opacity: .6;
 }
 #home .heading h3 {
 	color: #FFD700;
+	font-family: "Playfair Display", Arial, serif;
 	font-size: 28px !important;
 	font-weight: 700 !important;
 	text-shadow: -1px -1px 5px rgba(0, 0, 0, 0.33);
@@ -759,6 +760,10 @@ a.arrow-link:hover {
 }
 .heading h2 {
 	color: #222;
+	font-family: "Playfair Display", Arial, serif;
+}
+.heading h5 {
+	font-family: "Playfair Display", Arial, serif;
 }
 #contactUs{
 	background: #fff;
@@ -1279,6 +1284,10 @@ color: #FFFFFF;
 	color: #c11d1d;
 }
 .vendor_link:hover {
+	color: #1c38d2;
+	text-decoration: underline;
+}
+.gift_link, .gift_link:hover {
 	color: #1c38d2;
 	text-decoration: underline;
 }
