@@ -41,7 +41,7 @@ Author URI: http://webthemez.com/
         <section id="header-images">
           <img src="images/ganesha.png" class="header-image" />
           <img
-            src="images/kalasha.png"
+            src="images/ohm.png"
             class="header-image"
             style="float: right"
           />
@@ -353,7 +353,7 @@ Author URI: http://webthemez.com/
                   <p class="aligncenter family-text">
                     <a href="https://saraaltair.com/" target="_blank" class="vendor_link">
                       <i class="fa fa-dribbble"></i> - 
-                      https://saraaltair.com/
+                      saraaltair.com
                     </a>
                   </p>
                   <p class="aligncenter family-text">
@@ -375,7 +375,7 @@ Author URI: http://webthemez.com/
                   <p class="aligncenter family-text">
                     <a href="https://thehempsound.wixsite.com/music" target="_blank" class="vendor_link">
                       <i class="fa fa-dribbble"></i> - 
-                      https://thehempsound.wixsite.com/music
+                      thehempsound.wixsite.com/music
                     </a>
                   </p>
                   <p class="aligncenter family-text">
@@ -525,5 +525,20 @@ Author URI: http://webthemez.com/
         });
       });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0"></script>
+    <script>
+        function launchConfetti() {
+            confetti({
+                particleCount: 150,  // Number of particles
+                spread: 180,         // Spread angle
+                origin: { y: 0.6 }   // Start point
+            });
+        }
+    
+        // Launch confetti when the page loads
+        window.onload = function () {
+            setTimeout(launchConfetti, 500); // Delay for effect
+        };
+    </script>    
   </body>
 </html>

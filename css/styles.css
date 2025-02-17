@@ -35,7 +35,7 @@ body {
 p {
 	color: #c11d1d;
 	margin: 0 0 1em !important;
-	font-size: 13px;
+	font-size: 14px;
 }
 h1, h2, h3, h4, h5, h6, #home .heading strong {color: #c11d1d;}
 .fitImage {
@@ -1224,7 +1224,7 @@ color: #FFFFFF;
 	width: 64px;
 }
 .family-text {
-	font-size: small;
+	font-size: 14px;
 }
 .lightbox-container {
 	position: relative;
