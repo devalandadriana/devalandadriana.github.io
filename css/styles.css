@@ -1033,8 +1033,8 @@ body {
 	margin-right: 6px;
 }
 footer {
-	padding: 35px 0 15px;
-	background: #FFFFFF;
+	padding: 20px;
+	background: #665858;
 }
 .social a:hover {
 	color: #818181;
@@ -1256,4 +1256,11 @@ color: #FFFFFF;
 .gallery-img {
     margin-bottom: 15px; /* Adds space between images */
     border-radius: 5px; /* Optional: Makes images look nicer */
+}
+.vendor_link {
+	color: #c11d1d;
+}
+.vendor_link:hover {
+	color: #1c38d2;
+	text-decoration: underline;
 }
