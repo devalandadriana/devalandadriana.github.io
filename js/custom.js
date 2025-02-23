@@ -78,16 +78,31 @@ var customScripts = {
     },   
 	waySlide: function(){
 		  	/* Waypoints Animations
-		   ------------------------------------------------------ */		   			  			
-			$('#services').waypoint(function() {				
-			$('#services .col-md-3').addClass( 'animated fadeInUp show' );   
-			}, { offset: 800}); 
-			$('#aboutUs').waypoint(function() {				
-			$('#aboutUs').addClass( 'animated fadeInUp show' );   
-			}, { offset: 800}); 
-			$('#contactUs').waypoint(function() {				
-			$('#contactUs .parlex-back').addClass( 'animated fadeInUp show' );   
-			}, { offset: 800}); 
+		   ------------------------------------------------------ */	
+      // $('#family').waypoint(function() {				
+      // $('#family').addClass( 'animated fadeInUp show' );   
+      // }, { offset: 800}); 
+      // $('#services').waypoint(function() {				
+			// $('#services').addClass( 'animated fadeInUp show' );   
+			// }, { offset: 800});
+			// $('#aboutUs').waypoint(function() {				
+			// $('#aboutUs').addClass( 'animated fadeInUp show' );   
+			// }, { offset: 800}); 
+      // $('#address').waypoint(function() {				
+      // $('#address').addClass( 'animated fadeInUp show' );   
+      // }, { offset: 800}); 
+      // $('#vendors').waypoint(function() {				
+      // $('#vendors').addClass( 'animated fadeInUp show' );   
+      // }, { offset: 800}); 
+      // $('#gifts').waypoint(function() {				
+      // $('#gifts').addClass( 'animated fadeInUp show' );   
+      // }, { offset: 800}); 
+      // $('#gallery').waypoint(function() {				
+      // $('#gallery').addClass( 'animated fadeInUp show' );   
+      // }, { offset: 800}); 
+			// $('#contactUs').waypoint(function() {				
+			// $('#contactUs .parlex-back').addClass( 'animated fadeInUp show' );   
+			// }, { offset: 800}); 
 			 						 
 		}, 
     init: function () {
@@ -98,7 +113,7 @@ var customScripts = {
 $('document').ready(function () { 
   
     customScripts.init();
-	$('#services .col-md-3, #features, #aboutUs, #clients, #portfolio, #plans, #contactUs .parlex-back').css('opacity','0');
+	$('#services .col-md-3, #features, #clients, #portfolio, #plans, #contactUs .parlex-back').css('opacity','0');
 	$( "#menuToggle" ).toggle(function() {
 	$(this).find('i').removeClass('fa-arrow-left').addClass('fa-arrow-right');
 	 $('#mainNav').animate({"right":"0px"}, "slow");
