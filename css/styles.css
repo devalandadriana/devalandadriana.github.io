@@ -357,13 +357,10 @@ h2, .h2 {
 	color: #FFD700;
 	margin: 10px 4px;
 	height: auto;
-	/* padding-bottom: 8px; */
-	/* background: rgba(233, 30, 99, 0.31); */
 	width: 112px;
 	border: 1px dashed rgba(255, 255, 255, 0.46);
 }
 .styled div:last-child{
-	/* border:none; */
 }
 #overlay { 
 	position: fixed;
@@ -764,7 +761,7 @@ a.arrow-link:hover {
 }
 .heading h5 {
 	font-family: "Playfair Display", Arial, serif;
-	font-size: 16px;
+	font-size: 20px !important;
 }
 #contactUs{
 	background: #fff;
@@ -787,7 +784,7 @@ a.arrow-link:hover {
 .heading {
 	padding: 3px 8px;
 	padding-bottom: 15px;
-	margin-top: 34%;
+	margin-top: 15%;
 	display: block;
 }
 .pdingBtm30 {
@@ -1091,8 +1088,13 @@ footer {
 		position: relative;
 	}
 	#home .heading h2 {
-		font-size: 26px !important;
-		line-height: 36px;
+		font-size: 44px !important;
+	}
+	#home .heading h3 {
+		font-size: 32px !important;
+	}
+	#home .heading h5 {
+		font-size: 18px !important;
 	}
 	#home .heading strong {
 		font-size: 19px;
@@ -1100,10 +1102,10 @@ footer {
 	.styled div {
 		display: inline-block;
 		margin-left: 0;
-		font-size: 50px;
+		font-size: 30px;
 	}
 	.styled div span {
-		font-size: 23px;
+		font-size: 20px;
 	}
 	.row .six {
 		width: auto;
@@ -1121,6 +1123,15 @@ footer {
 	.about-us-text {
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+	#aboutUs h2 {
+		text-align: center;
+	}
+	#address h2 {
+		text-align: center;
+	}
+	#address ul {
+		text-align: center;
 	}
 }
 
@@ -1143,8 +1154,14 @@ footer {
 		height: 500px;
 	}
 	#home .heading h2 {
-		font-size: 22px !important;
+		font-size: 32px !important;
 		line-height: 28px;
+	}
+	#home .heading h3 {
+		font-size: 18px !important;
+	}
+	#home .heading h5 {
+		font-size: 16px !important;
 	}
 	#home .heading strong {
 		font-size: 14px;
@@ -1291,4 +1308,9 @@ color: #FFFFFF;
 .gift_link, .gift_link:hover {
 	color: #1c38d2;
 	text-decoration: underline;
+}
+.feature.design {
+	display: flex;
+	align-items: center; /* Vertically centers content */
+	flex-wrap: wrap; /* Ensures responsiveness */
 }
