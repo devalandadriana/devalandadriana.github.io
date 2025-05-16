@@ -1311,3 +1311,10 @@ color: #FFFFFF;
 	align-items: center; /* Vertically centers content */
 	flex-wrap: wrap; /* Ensures responsiveness */
 }
+#rsvp .box-area {
+	height: 850px;
+	padding: 0px;
+}
+#rsvp iframe {
+	height: 100%;
+}
